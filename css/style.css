@@ -40,8 +40,10 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 	float:left;
 }
 .w3l_logo{
-	float:left;
+	float:right;
 	margin-left:22em;
+    margin-right:20em;
+    margin-top: 5px;
 }
 .w3l_logo h1 a{
 	font-size:1.1em;
@@ -5048,4 +5050,10 @@ td.invert-image a img {
 	.w3l_faq_grid {
 		margin-bottom: 1em;
 	}
+    #logo{
+        float: left;
+        margin-top: 30px;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
 }
