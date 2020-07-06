@@ -8,7 +8,7 @@
     mail($destino,"Contactanos EzStore","
 Nombre: " . $nombre . 
 "\nCorreo: " .$correo .".\n
-Telefono: " .$telefono .".\n\n\n
+Telefono: " .$telefono .".\n\n
 Mensaje: \n" .$mensaje);
     header("Location:index.html");
 ?>
