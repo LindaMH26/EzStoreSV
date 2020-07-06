@@ -10,5 +10,5 @@ Nombre: " . $nombre .
 "\nCorreo: " .$correo .".\n
 Telefono: " .$telefono .".\n\n
 Mensaje: \n" .$mensaje);
-    header("Location:index.html");
+    header("Location:mail.html");
 ?>
