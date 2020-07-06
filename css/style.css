@@ -493,7 +493,7 @@ ul.multi-column-dropdown h6 {
 }
 .navbar-nav > li > a {
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -1207,7 +1207,7 @@ ul.wmuSliderPagination {
     letter-spacing: 2px;
     color: #d10a0a;
     background: url(../images/img-sp.png) no-repeat 112px -4px;
-    padding: 0 45px 0 0;
+    padding: 0 45px 0 148px;
 }
 .agileinfo_banner_bottom1_grid_left a:hover,.team-bottom a:hover{
 	color:#212121;
@@ -1302,7 +1302,14 @@ ul.wmuSliderPagination {
 }
 /*-- newsletter --*/
 .newsletter{
-	background:#3c43a4;
+	/*background:#a6d026;*/
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2e638+4,dbf043+33,dbf043+33,d2e638+35,c3d825+63 */
+background: #d2e638; /* Old browsers */
+background: -moz-linear-gradient(top,  #d2e638 4%, #dbf043 33%, #dbf043 33%, #d2e638 35%, #c3d825 63%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #d2e638 4%,#dbf043 33%,#dbf043 33%,#d2e638 35%,#c3d825 63%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #d2e638 4%,#dbf043 33%,#dbf043 33%,#d2e638 35%,#c3d825 63%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2e638', endColorstr='#c3d825',GradientType=0 ); /* IE6-9 */
+
 	padding:3em 0;
 }
 .w3agile_newsletter_left h3{
@@ -2607,7 +2614,7 @@ h2.typoh2{
     text-align: center;
 }
 .w3ls_about_grid_left1 span{
-	color:#ff5063;
+	color:#d10a0a;
 	font-size:1.5em;
 	top: 1em;
 }
@@ -2668,7 +2675,7 @@ h2.typoh2{
 	line-height:1.5em;
 }
 .team-bottom h3 span{
-	color:#3c43a4;
+	color:#d10a0a;
 }
 .team-bottom p{
 	width:70%;
@@ -2683,7 +2690,7 @@ h2.typoh2{
 }
 .contact-left h4{
 	font-size: 1.5em;
-	color:#3c43a4;
+	color:#d10a0a;
 	margin:0 0 1em;
 }
 .contact-left p{
@@ -2741,7 +2748,7 @@ h2.typoh2{
     font-size: 1em;
     padding: 10px 0;
     width: 35%;
-    background: #ff5063;
+    background: #d10a0a;
     border: none;
     transition: .5s all;
     -webkit-transition: .5s all;
@@ -2750,7 +2757,7 @@ h2.typoh2{
     -ms-transition: .5s all;
 }
 .contact-left input[type="submit"]:hover{
-	background:#3c43a4;
+	background:black;
 }
 .contact-bottom{
 	margin:3em 0 0;
@@ -3324,7 +3331,7 @@ td.invert-image a img {
 		margin-left: 9em;
 	}
 	.navbar-nav > li > a {
-		padding: 20px 20px !important;
+		padding: 20px 10px !important;
 	}
 	.navbar-nav > li:nth-child(1) {
 		margin-left: 4em;
@@ -3348,7 +3355,7 @@ td.invert-image a img {
 		margin: 10em 0em 0 20.5em;
 	}
 	.nav > li > a {
-		padding: 10px 24px;
+		padding: 10px 10px;
 	}
 	.nav-tabs > li > a {
 		font-size: 1em;
@@ -5048,10 +5055,5 @@ td.invert-image a img {
 	.w3l_faq_grid {
 		margin-bottom: 1em;
 	}
-    #logo{
-        float: left;
-        margin-top: 30px;
-        margin-right: 30px;
-        margin-left: 20px;
-    }
+
 }
