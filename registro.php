@@ -1,3 +1,4 @@
+/*Script by ggsgranados*/
 <?php
     $destino= $_POST["Email"];
     $nombre= $_POST["Name"];  
