@@ -7,8 +7,8 @@
     $mensaje= $_POST["message"];  
     mail($destino,"Contactanos EzStore","
 Nombre: " . $nombre . 
-"\nCorreo: " .$correo .".\n
-Telefono: " .$telefono .".\n\n
-Mensaje: \n" .$mensaje);
+"\nCorreo: " .$correo .
+".\nTelefono: " .$telefono .
+".\n\nMensaje: \n" .$mensaje);
     header("Location:mail.html");
 ?>
