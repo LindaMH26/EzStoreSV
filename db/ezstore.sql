@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-07-2020 a las 22:57:04
+-- Tiempo de generación: 07-07-2020 a las 06:39:07
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.4.6
 
@@ -143,6 +143,7 @@ INSERT INTO `producto` (`id_producto`, `nombre`, `precio`, `stock`, `fecha`) VAL
 
 CREATE TABLE `usuario` (
   `id_usuario` int(11) NOT NULL,
+  `nombre` varchar(100) NOT NULL COMMENT 'nombre del cliente',
   `email` varchar(50) NOT NULL,
   `password` varchar(200) NOT NULL,
   `fecha` datetime NOT NULL DEFAULT current_timestamp()
@@ -152,8 +153,8 @@ CREATE TABLE `usuario` (
 -- Volcado de datos para la tabla `usuario`
 --
 
-INSERT INTO `usuario` (`id_usuario`, `email`, `password`, `fecha`) VALUES
-(1, 'gg.sgranados@gmail.com', 'admin', '2020-07-06 11:15:29');
+INSERT INTO `usuario` (`id_usuario`, `nombre`, `email`, `password`, `fecha`) VALUES
+(1, '', 'gg.sgranados@gmail.com', '$2y$10$f96p7j6oerBgWer8L5YkG.1HUeQUV4IF93GU11ZOHAlAzN8LogcCu', '2020-07-06 11:15:29');
 
 --
 -- Índices para tablas volcadas
@@ -248,7 +249,7 @@ ALTER TABLE `orden`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Restricciones para tablas volcadas
