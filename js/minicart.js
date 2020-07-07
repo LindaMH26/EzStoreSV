@@ -1914,9 +1914,10 @@ var defaults = module.exports = {
     styles: '',
 
     strings: {
-        button: 'Shop More',
+
+        button: '<a href="pago.html"> Comprar</a>',
         subtotal: 'Subtotal:',
-        discount: 'Discount:',
+        discount: 'Descuento:',
         empty: 'Tu carrito está vacío.'
     }
 
